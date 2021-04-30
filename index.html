@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class = "container">
+        <header class = "header">
+            <div class = "search">
+                <input type = "text" placeholder = "Enter a City Name" id = "searchtext" autofocus>
+                <a id = "searchbtn" href="#"><i class="fas fa-search"></i></a>
+            </div>
+        </header>
+        <main>
+            <div class = "citycolumn">
+                <div class = "city">
+                    <div id = "cityname"></div>
+                    <img src = "" alt = "" id = "icon">
+                </div>
+            </div>
+            <div class = "temperature">
+                <div id = "temp"></div>
+            </div>
+            <div class = "humidity">
+                <div id = "humid"></div>
+            </div>
+        </main>
+    </div>
+    <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
+    <script  src="index.js"></script>
+</body>
+</html>
